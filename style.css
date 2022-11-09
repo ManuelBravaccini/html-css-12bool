@@ -7,10 +7,19 @@
 
 /*Utilities*/
 
+section {
+    margin-bottom: 1rem;
+}
+
 [class*="col-"] {
-    height: 2.5rem;
+    padding: .5rem;
     background-color: #006cfa;
     color: white;
     border: 1px solid white;
     text-align: center;
 }
+
+.nested {
+    background-color: #01e165;
+}
+
