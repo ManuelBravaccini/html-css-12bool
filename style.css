@@ -7,6 +7,10 @@
 
 /*Utilities*/
 
-.flex {
-    display: flex;
+[class*="col-"] {
+    height: 2.5rem;
+    background-color: #006cfa;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
 }
